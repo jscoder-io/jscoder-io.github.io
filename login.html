@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.otf') format("opentype");
+    font-style: normal;
+  }
+  </style>
+</head>
+<body style="background: #f7f7f7; font-family: 'Montserrat'">
+    <div class="w-[474px] rounded-md bg-white border border-neutral-200" style="margin: 50px auto;">
+        <div class="mx-16 my-10">
+            <div>
+                <span class="text-lg font-medium text-[#7367F0] mr-6">Sign In</span>
+                <span class="text-lg font-medium mr-6">Register</span>
+            </div>
+            <div class="mt-10 text-sm font-normal text-[#6E6B7B]">
+                Please sign-in to your account
+            </div>
+            <div class="mt-4 font-normal text-[#6E6B7B]">
+                <label for="email" class="block mb-1 text-xs">Email</label>
+                <input type="email" name="email" class="w-full h-9 py-2 px-4 leading-6 border border-neutral-300 rounded text-sm focus-visible:outline-none">
+            </div>
+            <div class="mt-4 font-normal text-[#6E6B7B]">
+                <div>
+                    <div class="float-left"><label for="password" class="text-xs">Password</label></div>
+                    <div class="float-right"><a href="#" class="text-xs text-[#7367F0]">Forgot Password?</a></div>
+                </div>
+                <input type="password" name="password" class="w-full h-9 py-2 px-4 leading-6 border border-neutral-300 rounded text-sm focus-visible:outline-none">
+            </div>
+            <div class="mt-4">
+                <input type="checkbox" name="remember" value="1" class="mr-1">
+                <label for="remember" class="text-sm font-normal text-[#6E6B7B]">Remember me</label>
+            </div>
+            <div class="mt-4">
+                <button type="submit" class="w-full bg-[#7367F0] rounded text-white py-3 text-sm font-medium">Login</button>
+            </div>
+            <div class="mt-4 text-sm font-normal text-center">
+                <span class="text-[#6E6B7B]">New on our platform?</span> <a href="#" class="text-[#7367F0]">Create an account</a>
+            </div>
+            <div class="mt-4 text-sm font-normal text-center">
+                <span class="text-[#6E6B7B]">or</span>
+            </div>
+            <div class="mt-4">
+                <div class="w-[100px] my-0 mx-auto">
+                    <a href="#"><img src="facebook.png" width="30" height="30" class="inline-block" /></a>
+                    <a href="#"><img src="twitch.png" width="30" height="30" class="inline-block" /></a>
+                    <a href="#"><img src="google.png" width="30" height="30" class="inline-block" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
