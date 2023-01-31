@@ -158,6 +158,60 @@ body {
     border-radius: 8px;
     background: inherit;
 }
+.btn-preview, .btn-starter {
+    color: #1C5372;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 0;
+    width: 200px;
+    background: #FFFFFF;
+    border: 1px solid #1C5372;
+    border-radius: 8px;
+}
+table.plan {
+    width: 100%;
+}
+table.plan > thead > tr > th {
+    width: 25%;
+    padding: 0 8px;
+}
+table.plan > thead > tr > th > .option {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    background: #A8AEB8 0% 0% no-repeat padding-box;
+    border-radius: 16px 16px 0px 0px;
+}
+table.plan > thead > tr > th > .option.recommended {
+    background: #63C1C7 0% 0% no-repeat padding-box;
+}
+table.plan > tbody > tr > td {
+    color: #514E50;
+    padding: 16px 0;
+    border-bottom: 1px solid #B3BDD6;
+}
+table.plan > tbody > tr.border-none > td,
+table.plan > tbody > tr:last-child > td {
+    border: 0;
+}
+table.plan > tbody > tr > td:not(:first-child) {
+    text-align: center;
+}
+table.plan > tbody > tr > td:last-child {
+    color: #63C1C7;
+}
+table.plan > tbody > tr > td.heading {
+    border: 0;
+    color: #514E50;
+}
+table.plan > tbody > tr > td > span.note {
+    color: #A8AEB8;
+    font-size: 12px;
+}
+
 .footer-h-line {
     border-bottom: 1px solid #0C0C0D;
 }
